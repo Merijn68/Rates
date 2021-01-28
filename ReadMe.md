@@ -5,7 +5,7 @@ RatesDashboard is a Python Demo App showing a use case of Jupyter Dash for visua
 ## Installation
 
 RatesDashboard is written in Python and Jupyter notebooks. Files should be installed in the main project directory.
-Assets need to be installed in the assets directory. The data directory should at least should contain the rates_data.csv dataset and exceptions.xlsx. You need read/write access to the exceptions.xlsx file where the application stores the suppressed exceptions.
+Assets need to be installed in the assets directory. The data directory should at least contain the rates_data.csv dataset and exceptions.xlsx. You need read/write access to the exceptions.xlsx file where the application stores the suppressed exceptions.
 
 This project uses [JupyterDash](https://medium.com/plotly/introducing-jupyterdash-811f1f57c02e). 
 
@@ -23,7 +23,7 @@ conda config --set ssl_verify_no
 
 ## Usage
 
-Data used for this project is real life data coming from the banks back office system. As unfortunatly the Market Data is not freely available - market data has been altered for this demo on purpose to be distributed with this application. Please don't use this data as life data for any project.
+Data used for this project is real live data coming from the banks back office system. Unfortunatly since the market data is not freely available, market data has been purposefully altered for this demo to be distributed with this application. Please don't use this data as live data for any project.
 
     RatesDashboard is the main notebook. This contains the code to clean, calcuate and present the results
     CurrencyGroup - is a small python routine to maintain the currency grouping stored in the data folder
